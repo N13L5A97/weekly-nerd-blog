@@ -23,6 +23,7 @@
 
 body{
     min-height: 100vh;
+    position: relative;
 
     background-image: url("../assets/images/tile.png");
     background-repeat: repeat;
@@ -53,6 +54,7 @@ h2{
     font-weight: var(--font-weight-light);
 }
 
+/* Home page  */
 
 .indexSliderContainer{
     overflow-x: hidden;
@@ -77,4 +79,21 @@ h2{
     margin: -3px;
     margin-left: -5em;
 }
+
+
+/* Blog page */
+
+.blogHeader{
+    min-height: 100vh;
+    max-height: 100vh;
+    justify-content: flex-start;
+    padding-top: 20vh;
+}
+
+.backButton{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
 
