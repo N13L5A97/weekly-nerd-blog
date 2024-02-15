@@ -12,7 +12,7 @@
     --font-style-normal: normal;
 
     --heading-size: 5.75em;
-    --sub-heading-size: 2.5em;   
+    --sub-heading-size: 2em;   
 }
 
 *{
@@ -29,13 +29,16 @@ body{
     background-size: 100%;
 
     font-family: var(--main-font);
-    color: var(--font-color-dark);
 
+    color: var(--font-color-dark);
 }
 
 header{
     display: flex;
     flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, h3{
@@ -43,3 +46,35 @@ h1, h3{
     font-style: var(--font-style-normal);
     font-weight: var(--font-weight-light);
 }
+
+h2{
+    font-size: var(--sub-heading-size);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-light);
+}
+
+
+.indexSliderContainer{
+    overflow-x: hidden;
+    display: flex;
+    height: 50vh;
+    align-items: flex-end;
+}
+
+.indexSlider{
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: scroll;
+}
+
+.indexSlider li{
+    list-style: none;
+}
+
+.indexSlider img{
+    height: 20em;
+    object-fit: cover;
+    margin: -3px;
+    margin-left: -5em;
+}
+
