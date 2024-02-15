@@ -7,11 +7,11 @@ Founder Polypane
 
 Killian is a front-end developer, user-experience designer and generalist.  He is a part of Electron Governance and is the founder of Polypane. He also has been building websites for 20 years.
 
-The rule of the least power
+## The rule of the least power
 
 Killian believes in the principal of the rule of least power. This means you should choose the least powerful language for the give purpose. Meaning you should build as much as you can with HTML if that can be done and if not switch to CSS and if you can’t do it with css build it with Javascript. In this article you can read about some techniques Killian uses.
 
-Custom Toggles
+## Custom Toggles
 
 Some input elements, like checkboxes, are hard to style because every browser has their own styling for this. To keep the functionality but make it look better you can set the display to none and use the pseudo class :before to give it a nice styling.
 
