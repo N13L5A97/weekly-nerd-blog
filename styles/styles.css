@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400&display=swap');
+
+:root{
+    --font-color-dark: #2F2F39;
+    --font-color-light: #F4F4F4;
+
+    background-color: #F4F4F4;
+
+
+    --main-font: 'Karantina', sans-serif; 
+    --font-weight-light: 400;
+    --font-style-normal: normal;
+
+    --heading-size: 5.75em;
+    --sub-heading-size: 2.5em;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+
+    background-image: url("../assets/images/tile.png");
+    background-repeat: repeat;
+    background-size: 100%;
+
+    font-family: var(--main-font);
+    color: var(--font-color-dark);
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h3{
+    font-size: var(--heading-size);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-light);
+}
