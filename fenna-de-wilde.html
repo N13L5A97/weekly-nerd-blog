@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header class="blogHeader">
+    <header class="blogHeader dark">
         <h1>Fenna de Wilde</h1>
         <h2>Creative Developer</h2>
         <a href="/" class="backButton">
@@ -19,6 +19,7 @@
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
+                class="dark"
                 fill-rule="evenodd"
                 clip-rule="evenodd"
                 d="M40.6935 6.90053C31.5122 -2.28072 16.6265 -2.28072 7.4452 6.90053C-1.73605 16.0818 -1.73605 30.9675 7.4452 40.1488C16.6265 49.33 31.5122 49.33 40.6935 40.1488C49.8747 30.9675 49.8747 16.0818 40.6935 6.90053ZM8.94162 23.5246L25.5584 33.1184L25.5584 25.1863L39.197 25.1863L39.197 21.863L25.5584 21.863L25.5584 13.9309L8.94162 23.5246Z"
@@ -26,6 +27,8 @@
               />
             </svg>
           </a>
+          <div class="yellow"></div>
+          <img src="./assets/images/fenna-de-wilde.png" alt="Fenna de Wilde">
     </header>
     <main>
         <h3>Who is Fenna?</h3>
@@ -63,9 +66,7 @@
             can read this and explain what an image is about.
         </p>
         <code>
-            ```html
-            <img src=“dog” alt=“a brow dog sitting next to a tree”>
-            ```
+            &lt;img src=“dog” alt=“a brow dog sitting next to a tree”&gt;
         </code>
 
         <h3>Line lengths</h3>
@@ -102,19 +103,19 @@
             You can use aria-label to give more information about an element.
         </p>
         <code>          
-                ```html
-                <a src=“/” aria-label=“to home page”> <img src=/logo.png> </a>
-                ```
+            &lt;a&gt; src=“/” aria-label=“to home page”&gt; &lt;img src=/logo.png&gt; &lt;/a&gt;
         </code>
         <p>
             You can also use it to describe the state of an element e.g. a play/pause button. 
             In this case you use javascript to update the attribute when the state changes.
             When dynamically changing states and roles of ARIA attributes you should tell the how it should handle these changes. You can use aria-live for this.
-            <br>
-            aria-live: off (screen reader won’t be updated)
-            aria-live: polite (when the   is busy, wait until it’s done and then update the element)
+        </p>
+        <p>
+            aria-live: off (screen reader won’t be updated) <br>
+            aria-live: polite (when the   is busy, wait until it’s done and then update the element) <br>
             aria-live: assertive (stop the screen reader and update immediately)
-            <br>
+        </p>
+        <p>
             This attribute goes ofter together with are-atomic. 
             When setting this to false the   will only introduce the changed nodes. 
             When putting this to true the   will introduce the whole area again.

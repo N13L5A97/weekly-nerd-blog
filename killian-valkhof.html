@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <header class="blogHeader" id="blue">
+    <header class="blogHeader light">
       <h1>Killian Valkhof</h1>
       <h2>Founder of Polypane</h2>
       <a href="/" class="backButton">
@@ -20,6 +20,7 @@
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
+            class="light"
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M40.6935 6.90053C31.5122 -2.28072 16.6265 -2.28072 7.4452 6.90053C-1.73605 16.0818 -1.73605 30.9675 7.4452 40.1488C16.6265 49.33 31.5122 49.33 40.6935 40.1488C49.8747 30.9675 49.8747 16.0818 40.6935 6.90053ZM8.94162 23.5246L25.5584 33.1184L25.5584 25.1863L39.197 25.1863L39.197 21.863L25.5584 21.863L25.5584 13.9309L8.94162 23.5246Z"
@@ -27,6 +28,8 @@
           />
         </svg>
       </a>
+      <div class="blue"></div>
+      <img src="./assets/images/killian-valkhof.png" alt="Killian Valkhof" />
     </header>
     <main>
       <h3>Who is Killian?</h3>
@@ -56,9 +59,7 @@
         the browser knows if its a switch
       </p>
       <code>
-        ```html
-        <input type="checkbox" switch />
-        ```
+        &lt;input type="checkbox" switch /&gt;
       </code>
 
       <h3>Datalist</h3>
@@ -67,15 +68,12 @@
         input.
       </p>
       <code>
-        ```html
-        <input list="datalist" />
-        <datalist id="datalist">
-          <option value="Option 1"></option>
-          <option value="Option 2"></option>
-          <option value="Option 3"></option>
-        </datalist>
-
-        ```
+        &lt;input list="datalist" /&gt; <br>
+        &emsp;  &lt;datalist id="datalist"&gt; <br>
+        &emsp;  &lt;option value="Option 1"&gt;&lt;option&gt; <br>
+        &emsp;  &lt;option value="Option 2"&gt;&lt;option&gt; <br>
+        &emsp;  &lt;option value="Option 3"&gt;&lt;option&gt; <br>
+        &lt;/datalist&gt;
       </code>
 
       <h3>Color pickers</h3>
@@ -84,9 +82,7 @@
         also be done in HTML:
       </p>
       <code>
-        ```html
-        <input type="color" />
-        ```
+        &lt;input type="color" /&gt;
       </code>
 
       <h3>In-page transitions</h3>
@@ -95,22 +91,33 @@
         sections of your page. You can just use the id of an element as anchor
         and set its parent to scroll-behavior.
       </p>
-      <code> ```css html{ scroll-behavior: smooth; } ``` </code>
+      <code> 
+        html{ <br>
+          scroll-behavior: smooth;  <br>
+        } 
+       </code>
 
       <p>
         To keep this accessible you can add this motion to a media query for
         reduced motion:
       </p>
       <code>
-        ```css @media( prefers-reduced-motion: no- preference ){ html{
-        scroll-behavior: smooth; } } ```
+        @media( prefers-reduced-motion: no- preference ){ <br>
+        &emsp;  html{ <br>
+        &emsp;  &emsp; scroll-behavior: smooth;  <br>
+        &emsp;  }  <br>
+        } 
       </code>
 
       <p>
         To make sure you give the section a little more space you can add a
         scroll margin:
       </p>
-      <code> ```css my-target{ scroll-margin-top: 100px; } ``` </code>
+      <code>
+        my-target{  <br>
+        &emsp; scroll-margin-top: 100px;  <br>
+        }  
+      </code>
 
       <h3>Fixed/Sticky Styling</h3>
       <p>
@@ -119,8 +126,14 @@
         element and it wont disappear from the structure.
       </p>
       <code>
-        ```css div{ position: relative; } div > .sticky{ position: sticky; top:
-        0; } ```
+        div{  <br>
+        &emsp;  position: relative; <br>
+        } <br>
+        <br>
+        div > .sticky{ <br>
+        &emsp;  position: sticky;  <br>
+        &emsp; top: 0; <br>
+        } 
       </code>
 
       <h3>Carousels / Sliders</h3>
@@ -131,14 +144,19 @@
         lets the items only snap when at the edge.
       </p>
       <code>
-        ```html
-        <div class="container">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-        </div>
-        ``` ```css .container{ scroll-snap-type: y mandatory; } div{
-        scroll-snap-align: center; } ```
+        &lt;div class="container"&gt; <br>
+        &emsp; &lt;div&gt;1&lt;/div&gt; <br>
+        &emsp; &lt;div&gt;2&lt;/div&gt; <br>
+        &emsp; &lt;div&gt;3&lt;/div&gt; <br>
+        &lt;/div&gt; <br>
+        <br>
+        .container{ <br>
+        &emsp;  scroll-snap-type: y mandatory; <br>
+        } <br>
+        <br>
+        div{ <br>
+        &emsp;  scroll-snap-align: center; <br>
+        } 
       </code>
       <p>
         You can also use snap align on the children. You can use start, end or
@@ -152,12 +170,10 @@
         The default state of a details element is closed but you can override this with the open attribute.
       </p>
       <code>
-        ```html
-  <details open>
-         <summary>titel</summary>
-         <p>dit is automatisch verborgen</p>
-     </details>
-```
+        &lt;details open&gt; <br>
+        &emsp;  &lt;summary&gt;title&lt;/summary&gt; <br>
+        &emsp;  &lt;p&gt;this is automatically hidden&lt;/p&gt; <br>
+        &lt;/details&gt;
       </code>
 
       <h3>Models</h3>
@@ -168,27 +184,22 @@
         If there is a form element in the dialog, it will the the submit entry as a fulfilled dialog.
       </p>
       <code>
-        ```html
-    <dialog>
-        <form>
-            <h1>TItel<h1>
-            <button >SEND</button>
-        </form>
-    </dialog>
-
-  <button onClick="$$('dialog').showModal()"> </button>
-```
+        &lt;dialog&gt; <br>
+        &emsp; &lt;form&gt; <br>
+        &emsp; &emsp; &lt;h1&gt;TItel&lt;h1&gt; <br>
+        &emsp; &emsp; &lt;button&gt;SEND&lt;/button&gt; <br>
+        &emsp; &lt;/form&gt; <br>
+        &lt;/dialog&gt; <br>
+        &lt;button onClick="$$('dialog').showModal()"> &lt;/button&gt;
       </code>
       <p>
         You can style the back of the dialog with the backdrop pseudo selector.
       </p>
       <code>
-        ```css
- dialog::backdrop{
-      background: #ffffff;
-      backdrop-filter: blur(4px)
-     }
-```
+        dialog::backdrop{ <br>
+          &emsp;  background: #ffffff; <br>
+          &emsp;  backdrop-filter: blur(4px) <br>
+        }
       </code>
 
       <h3>Reflection</h3>
