@@ -61,9 +61,7 @@
         the browser knows if its a switch
       </p>
       <pre>
-        <code>
-          &lt;input type="checkbox" switch /&gt;
-        </code>
+        <code>&lt;input type="checkbox" switch /&gt;</code>
       </pre>
 
       <h3>Datalist</h3>
@@ -72,15 +70,7 @@
         input.
       </p>
       <pre>
-        <code>
-        &lt;input list="datalist" /&gt; <br>
-        &emsp;  &lt;datalist id="datalist"&gt; <br>
-        &emsp;  &lt;option value="Option 1"&gt;&lt;option&gt; <br>
-        &emsp;  &lt;option value="Option 2"&gt;&lt;option&gt; <br>
-        &emsp;  &lt;option value="Option 3"&gt;&lt;option&gt; <br>
-        &lt;/datalist&gt;
-      </code>
-
+        <code>&lt;input list="datalist" /&gt; <br> &emsp;  &lt;datalist id="datalist"&gt;<br>&emsp;  &lt;option value="Option 1"&gt;&lt;option&gt; <br>&emsp;  &lt;option value="Option 2"&gt;&lt;option&gt; <br>&emsp;  &lt;option value="Option 3"&gt;&lt;option&gt; <br>&lt;/datalist&gt;</code>
       </pre>
 
       <h3>Color pickers</h3>
@@ -89,9 +79,7 @@
         also be done in HTML:
       </p>
       <pre>
-        <code> 
-          &lt;input type="color" /&gt; 
-        </code>
+        <code>&lt;input type="color" /&gt;</code>
       </pre>
 
       <h3>In-page transitions</h3>
@@ -101,11 +89,7 @@
         and set its parent to scroll-behavior.
       </p>
       <pre>
-        <code>
-          html{ <br />
-          scroll-behavior: smooth; <br />
-          }
-        </code>
+        <code>html{<br>scroll-behavior: smooth;<br>}</code>
       </pre>
 
       <p>
@@ -113,13 +97,7 @@
         reduced motion:
       </p>
       <pre>
-        <code>
-          @media( prefers-reduced-motion: no- preference ){ <br />
-          &emsp; html{ <br />
-          &emsp; &emsp; scroll-behavior: smooth; <br />
-          &emsp; } <br />
-          }
-        </code>
+        <code>@media( prefers-reduced-motion: no-preference ){<br>&emsp;html{<br>&emsp;&emsp;scroll-behavior: smooth;<br>&emsp;}<br>}</code>
       </pre>
 
       <p>
@@ -127,11 +105,7 @@
         scroll margin:
       </p>
       <pre>
-        <code>
-          my-target{ <br />
-          &emsp; scroll-margin-top: 100px; <br />
-          }
-        </code>
+        <code>my-target{<br>&emsp;scroll-margin-top: 100px;<br>}</code>
       </pre>
 
       <h3>Fixed/Sticky Styling</h3>
@@ -141,16 +115,7 @@
         element and it wont disappear from the structure.
       </p>
       <pre>
-        <code>
-          div{ <br />
-          &emsp; position: relative; <br />
-          } <br />
-          <br />
-          div > .sticky{ <br />
-          &emsp; position: sticky; <br />
-          &emsp; top: 0; <br />
-          }
-        </code>
+        <code>div{<br>&emsp;position: relative;<br>}<br><br>div > .sticky{<br>&emsp; position: sticky;<br>&emsp;top: 0;<br>}</code>
       </pre>
 
       <h3>Carousels / Sliders</h3>
@@ -161,21 +126,7 @@
         lets the items only snap when at the edge.
       </p>
       <pre>
-        <code>
-          &lt;div class="container"&gt; <br />
-          &emsp; &lt;div&gt;1&lt;/div&gt; <br />
-          &emsp; &lt;div&gt;2&lt;/div&gt; <br />
-          &emsp; &lt;div&gt;3&lt;/div&gt; <br />
-          &lt;/div&gt; <br />
-          <br />
-          .container{ <br />
-          &emsp; scroll-snap-type: y mandatory; <br />
-          } <br />
-          <br />
-          div{ <br />
-          &emsp; scroll-snap-align: center; <br />
-          }
-        </code>
+        <code>&lt;div class="container"&gt;<br>&emsp; &lt;div&gt;1&lt;/div&gt;<br>&emsp;&lt;div&gt;2&lt;/div&gt;<br>&emsp;&lt;div&gt;3&lt;/div&gt;<br>&lt;/div&gt;<br><br>.container{<br>&emsp; scroll-snap-type: y mandatory;<br>}<br><br>div{<br>&emsp;scroll-snap-align: center;<br>}</code>
       </pre>
       <p>
         You can also use snap align on the children. You can use start, end or
@@ -190,12 +141,7 @@
         closed but you can override this with the open attribute.
       </p>
       <pre>
-        <code>
-          &lt;details open&gt; <br />
-          &emsp; &lt;summary&gt;title&lt;/summary&gt; <br />
-          &emsp; &lt;p&gt;this is automatically hidden&lt;/p&gt; <br />
-          &lt;/details&gt;
-        </code>
+        <code>&lt;details open&gt;<br>&emsp;&lt;summary&gt;title&lt;/summary&gt;<br>&emsp;&lt;p&gt;this is automatically hidden&lt;/p&gt;<br>&lt;/details&gt;</code>
       </pre>
 
       <h3>Models</h3>
@@ -208,26 +154,13 @@
         dialog.
       </p>
       <pre>
-        <code>
-          &lt;dialog&gt; <br />
-          &emsp; &lt;form&gt; <br />
-          &emsp; &emsp; &lt;h1&gt;TItel&lt;h1&gt; <br />
-          &emsp; &emsp; &lt;button&gt;SEND&lt;/button&gt; <br />
-          &emsp; &lt;/form&gt; <br />
-          &lt;/dialog&gt; <br />
-          &lt;button onClick="$$('dialog').showModal()"> &lt;/button&gt;
-        </code>
+        <code>&lt;dialog&gt;<br>&emsp;&lt;form&gt;<br>&emsp;&emsp;&lt;h1&gt;TItel&lt;h1&gt;<br>&emsp;&emsp;&lt;button&gt;SEND&lt;/button&gt;<br>&emsp; &lt;/form&gt;<br>&lt;/dialog&gt;<br>&lt;button<br>&emsp;onClick="$$('dialog').showModal()"<br>&lt;/button&gt;</code>
       </pre>
       <p>
         You can style the back of the dialog with the backdrop pseudo selector.
       </p>
       <pre>
-        <code>
-          dialog::backdrop{ <br />
-          &emsp; background: #ffffff; <br />
-          &emsp; backdrop-filter: blur(4px) <br />
-          }
-        </code>
+        <code>dialog::backdrop{<br>&emsp;background: #ffffff;<br>&emsp;backdrop-filter: blur(4px)<br>}</code>
       </pre>
 
       <h3>Reflection</h3>

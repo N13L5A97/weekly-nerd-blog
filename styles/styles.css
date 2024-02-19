@@ -5,7 +5,7 @@
   --font-color-light: #f4f4f4;
 
   --background-color-white: #f4f4f4;
-  --background-color-dark: #2f2f39;
+  --background-color-dark: #000;
 
   --section-color-blue: #2c3ee2;
   --section-color-yellow: #ebb62e;
@@ -36,12 +36,6 @@
   box-sizing: border-box;
 }
 
-html {
-  background-image: url("../assets/images/tile.png");
-  background-repeat: repeat;
-  background-size: 100%;
-}
-
 body {
   min-height: 100vh;
   position: relative;
@@ -49,12 +43,16 @@ body {
   font-family: var(--header-font);
 
   color: var(--font-color-dark);
+
+  background-image: url("../assets/images/tile.png");
+  background-repeat: repeat;
+  background-size: 100%;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 40vh;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -113,13 +111,17 @@ footer svg {
   height: 3em;
 }
 
+svg:hover {
+  transform: scale(1.2);
+}
+
 /* Home page  */
 
 .indexSliderContainer {
   overflow-x: hidden;
   display: flex;
-  min-height: 50vh;
-  height: 50vh;
+  min-height: 60vh;
+  height: 60vh;
   align-items: flex-end;
   padding: 0;
 }
@@ -127,7 +129,8 @@ footer svg {
 .indexSlider {
   display: flex;
   flex-direction: row-reverse;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   height: 100%;
   width: 100%;
   align-items: flex-end;
@@ -185,7 +188,7 @@ li .overlay {
   color: var(--font-color-dark);
 }
 
-.nerdTitle{
+.nerdTitle {
   text-align: center;
 }
 
@@ -243,32 +246,42 @@ pre {
   overflow: scroll;
 }
 
-code{
-  margin-left: -4em;
-}
-
-
+/* code {
+  margin-left: -5em;
+} */
 
 /* desktop size */
 
 @media (min-width: 768px) {
-  .blogHeader{
+  .blogHeader {
     flex-direction: row;
     padding-top: 8vh;
   }
 
-  header img{
+  header img {
     min-height: 70vh;
   }
 
-  .nerdTitle{
+  .nerdTitle {
     text-align: right;
     margin-left: auto;
     margin-right: 10%;
   }
 
-  .pronouns{
+  .pronouns {
     right: 0;
     translate: 0;
+  }
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--font-color-light);
+    background-color: var(--background-color-dark);
+  }
+
+  footer{
+    background-color: transparent;
   }
 }
