@@ -125,6 +125,10 @@ svg:hover {
   transform: scale(1.2);
 }
 
+a:focus-visible{
+  outline: var(--section-color-purple) auto 5px;
+}
+
 /* Home page  */
 
 .indexSliderContainer {
@@ -160,12 +164,18 @@ svg:hover {
   z-index: 1;
 }
 
+.indexSlider a{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 .indexSlider li {
   list-style: none;
   position: relative;
 }
 
-.indexSlider img {
+.indexSlider img{
   height: 20em;
   margin-bottom: -4px;
   margin-left: -5em;
