@@ -52,7 +52,7 @@ body {
 
   background-image: url("../assets/images/tile.png");
   background-repeat: repeat;
-  background-size: 100%;
+  background-size: 237%;
 }
 
 header {
@@ -150,7 +150,7 @@ a:focus-visible{
   align-items: flex-end;
   justify-content: flex-start;
 
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
 
   height: 100%;
@@ -273,7 +273,7 @@ pre {
   padding: 1.5em;
   color: var(--font-color-light);
   max-width: 60em;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .toTop{
