@@ -76,6 +76,7 @@ h1 {
   font-style: var(--font-style-normal);
   font-weight: var(--font-weight-light);
   position: relative;
+  text-align: center;
 }
 
 h2 {
