@@ -28,6 +28,7 @@
   --title-size: 5.75rem;
   --sub-title-size: 2rem;
   --heading-size: 4rem;
+  --sub-heading-size: 2.5rem;
   --paragraph-size: 1.25rem;
 }
 
@@ -37,10 +38,10 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* scrollbar */
@@ -94,6 +95,14 @@ h3 {
   margin: 1.3em 0 0.3em;
 }
 
+h4 {
+  font-size: var(--sub-heading-size);
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.3em;
+}
+
 p {
   font-size: var(--paragraph-size);
   font-style: var(--font-style-normal);
@@ -108,9 +117,10 @@ p {
 
 svg:hover {
   transform: scale(1.2);
+  transition: transform 0.3s;
 }
 
-a:focus-visible{
+a:focus-visible {
   outline: var(--section-color-purple) auto 5px;
 }
 
@@ -147,9 +157,10 @@ a:focus-visible{
 .indexSlider li:hover {
   transform: scale(1.2);
   z-index: 1;
+  transition: transform 0.3s;
 }
 
-.indexSlider a{
+.indexSlider a {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -158,9 +169,10 @@ a:focus-visible{
 .indexSlider li {
   list-style: none;
   position: relative;
+  transition: transform 0.3s;
 }
 
-.indexSlider img{
+.indexSlider img {
   height: 20em;
   margin-bottom: -4px;
   margin-left: -5em;
@@ -198,6 +210,19 @@ li .overlay {
   left: 2em;
 
   color: var(--font-color-dark);
+  transition: transform 0.3s;
+}
+
+.websiteButton {
+  color: var(--background-color-dark);
+  height: .7em;
+  transform: rotate(180deg);
+  transition: transform 0.3s;
+}
+
+.websiteButton:hover {
+  transform: rotate(135deg) scale(1.2);
+  transition: transform 0.3s;
 }
 
 .nerdTitle {
@@ -283,16 +308,17 @@ footer {
 footer svg {
   color: var(--font-color-light);
   height: 3em;
+  transition: transform 0.3s;
 }
 
-.toTop{
+.toTop {
   display: none;
 }
 
 /* desktop size */
 
 @media (min-width: 768px) {
-  main{
+  main {
     margin: auto;
     max-width: 50em;
   }
@@ -319,7 +345,7 @@ footer svg {
 }
 
 @media (min-width: 1015px) {
-  .toTop{
+  .toTop {
     display: block;
     position: absolute;
     transform: rotate(90deg);
@@ -337,15 +363,19 @@ footer svg {
     background-color: var(--background-color-black);
   }
 
-  footer{
+  footer {
     background-color: transparent;
   }
 
-  pre{
+  pre {
     background-color: var(--background-color-black);
   }
 
-  .toTop{
+  .toTop {
     color: var(--font-color-light);
+  }
+
+  .websiteButton{
+    color: var(--background-color-white);
   }
 }
