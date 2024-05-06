@@ -1,36 +1,23 @@
 # Week 3 
 
-## wie is Jeffrey Arts
-Heeft achtergrond front-end development. Bachelor in product design?
-Artist, designer en front-end developer. Combineert tech en kunst met elkaar.
+## Who is Jeffrey Arts?
 
-## Webdevelopment Ecosysteem
-From localhost to the web under 5 minutes.
-strick to the core technologies ias much as possible
-create tools that support personal workflow
+Jeffrey has a background in front-end development and a bachelor in product design. He is an artist, designer and front-end developer and likes to combine art and tech with each other.
 
-hij heeft een eigen commando gemaakt "yarn jeff-front-end" waarbij hij zijn eigen project template opzet. Een boilerplate waarmee hij snel aan de slag kan met zijn eigen fundering. 
+## Web Development Ecosystem
 
-Creer je eigen ecosystem, zorg er voor dat alles op elkaar aansluit. laat alles elkaar versterken. Hij heeft gekozen voor view omdat hij daarbij alle dingen in js kan hij ook voor andere dingen gebruiken.
+When setting up a website it is nice to have some sort of ecosystem. Try to use core technologies as much as possible and create tools to support your personal workflow. Jeffrey created his own command - "yarn jeff-front-end" - to set up his own project template. This is his boilerplate where he can easily start working with. He told us to create an ecosystem for yourself where every element strengthens each other.
 
 ## Toolbox Workflow
 
-Het komt nogal vaak voor dat je aan het programmeren bent en dat je iets verneukt dus je wil terug, maar je weet niet meer precies naar welk punt. Deel je projectje op in stukjes en wanneer iets werkt, maak een kopie en ga vanuit daar verder met het de volgende functie. Alles wat je los maakt kan je later ook nog eens implementeren in andere websites.
-
-"GSAP = animatie tool"
-
-## CSS Glitch
-
-Jeffrey was ana het experimenteren met een div draaien op de z as en sommige browsers trekken dat niet. Dat vond hij interessant. Wanneer hij dit in firefox deed maakte de browser er een raster van. in Safari gebeurt er niks. Dit soort dingen kunnen als inspiratie bron werken.
-
-## Diversity Cubes
-
-WAs een afstudeer project. Iedereen is anders maar toch hetzelfde.
-
-## Inter Phygital
-DAshboard met blocks die hij realiseert in beton. met dit dashboard maakt hij sculpturen.
-
+It often happens that you're programming and you f*ck something up. In this case you want to go back to a previous version but you're not sure which one. Try to cut your project in smaller pieces. When a function is working put a copy of this in a toolbox so you can use it later. This toolbox makes you ecosystem even better.
 
 ## Try, Fail, New Truth, Succeed, Reflect
 
-Blijf proberen en reflecteren en probeer dar nieuwe dingen uit te ontdekken en laat je inspireren om daarmee verder te bouwen. 
+Jeffrey showed us some experiments with a div element and told us the one he liked the most was the one that actually glitched because of browser support. Keep failing and use this as a source of inspiration.
+
+"Keep trying and reflecting. Try to gain experience from that and let yourself be inspired by this to keep building".
+
+## Reflection
+
+Jeffrey showed us a lot of his art projects that were really cool. The talk was a bit chaotic so it was hard to follow. There was not really a common thread in his story but after some reflecting I did find this talk really nice. Mostly the part where he found a way to combine his passion for art with his passion for front-end development. I would love to be able to combine all my hobbies into one major project. But also the way he made a toolbox for himself. I would love to do this once I have a little more experience.
