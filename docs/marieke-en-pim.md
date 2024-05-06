@@ -64,3 +64,7 @@ On webpages NO element can be flashing 3 times in one second. This can be very d
 ## Reflection
 
 I think accessibility is very important and love to hear about it when people are as passionate about it a I am. I think the work Pim and Marieke are doing is amazing, but I don't think I learned a lot of new things this lecture. The only new thing for me was about how many times something can flash in a second for epileptic people. But although most information wasn't new for me I think it's very valuable to spread the word and make people realize how important inclisivity and accessability is.
+
+socials:
+website: https://digitaaltoegankelijk.nl/ons-verhaal/
+linkedin: https://www.linkedin.com/company/digitaal-toegankelijk/
