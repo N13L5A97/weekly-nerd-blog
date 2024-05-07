@@ -2,126 +2,74 @@
 
 ## Who is Jeremy Keith
 
+Jeremy Keith is a web developer and author living and working in Brighton, England.
+You may know Jeremy from such books as DOM Scripting, Bulletproof Ajax, and HTML5 For Web Designers, Resilient Web Design, and most recently, Going Offline.
 
 ## Declarative Design
 
-Musical composition.
-one approach is mozart, classical music.
-- which notes 
-- how long to play them 
-- how to play them 
+Jeremy Talked about declarative design as if it was a musical composition. You have the Mozart approach, the classical music. This one is very structured, you know exactly when to play which notes and how long. You also have the Miles Davis approach, the jazz music. This one is more fluently, you only need to know the key and you just start improvising.
 
-Very structured
+This is very similar to programming. You can divide them into 2 different approaches.
 
-
-... Davis
-Jazz approach
-- one key 
-- improvizing
-- more fluently
-
-Feel similair to programming.
-
-You can devide them into 2 different approaches
-
-- imperative programming
+- Imperative Programming
 Tell the computer exactly what to do.
 
-- declarative programming
-You don't tell the computer exactly what to do
-Ypu tell the outcome and let the computer
-
-SQL (structured ... Language)
+- Declarative Programming
+You don't tell the computer exactly what to do but you tell the outcome and let the computer do it for you.
 
 These things may do the same.
 
-How does this apply to the www:
+## How Does This Apply to the WWW
 
 - HTML
-Domain specific language. Its a declarative programming language
+This is a domain specific language. Its a declarative programming language because you tell the computer to build a heading, paragraph and other elements but you don't tell it how to do it. When you make a mistake the computer will try to fix it for you.
 
 - CSS
-This is another declarative programming language
-(you give a suggestions)
+This is the same with CSS. This is another declarative programming language. You give it suggestions. If you make a mistake the computer will simply improvise and try to make something of your input. But the use pixels is more imperative and The use rem is more declarative.
 
-- JS
-Imperative language
-You can do more.
+- JavaScript
+Javascript is an imperative language. You have to tell exactly what it needs to do otherwise it will not work. This gives you more freedom but is also harder to do.
 
-The declarative languages ignore when you make a mistake.
-Easy forgiving, easier to learn.
+## What's the Big Difference?
 
-The imperative language does not ignore mistakes
-More universal
+The declarative languages ignore when you make a mistake. It's easy forgiving and also easier to learn. The imperative language does not ignore mistakes but it's more universal. But whats the big difference? It's control!
 
-Whats a big difference:
-It's control!
-
-imperative mindset:
-"make button with javascript"
-more control
-
-declarative mindset:
-make button with html
-
-Why whould a developer make a button with js: "more control"
+You can build a button with html. In that case you have limited options on what to do with it. But if you make a button with JavaScript, you have more control on what to do with it. BUT...
 
 "Javascript should only do what only Javascript can do" (client side javascript!)
 
-css:
-- use pixels is more imperative
-- use rem is more declarative
+## Is Declarative Better Then Imperative?
 
-- padding-left: more imperative
-- padding-inline-start: more declarative
+It depends!
+On what?
 
-Examples declarative design:
-
-utopia.fyi:
-explaines about type scales
-
-youtube.com/layoutland:
-intrinsic layout
-
-every-layout.dev:
-give boundries but let the computer figure it out.
-
-buildexcellentwebsit.es
-"be the browsers mentor, not it's micromanager"
-
-Is declerative then imperative?
-answer: it depends -> bullshit
-say on what?
-
-- culture of the envoirenment:
-management(strict or not)
+- Culture of the Environment:
+Is the management in strict or not? What do you prefer? Strict rules of more freedom? Sometimes you need a combination of them.
 
 - Thinking:
-analitical: when you break something down in parts and look at them individually (zoom in)
-systems: You take a step back and look at the whole (zoom out)
+Analytical: when you break something down in parts and look at them individually (zoom in)
+Systems: You take a step back and look at the whole (zoom out)
 
 - Design systems: (system thinking)
-How do the components get made
-Not just the output.
-approach is mostly imperative (analitic thinking)
-It should be (most of the time) declarative
+How do the components get made? Is everything layed out perfectly and do you just have to recreate it (imperative). Or is it more like a mood board and do you have the freedom to add your own creativity (declarative).
 
-imperative design system:
-- exact components, color, etc.
+The approach is mostly imperative (analytic thinking), while this should be (most of the time) declarative.
 
-declarative design systems:
-- guidelines
-- borders should be 10% lighter than the background color.
-
-- The team
-the team can have different superpowers
-
-- The medium
+- The medium:
 Print -> imperative
-native apps -> imperative
-os-spesifics -> imperative
+Native apps -> imperative
+OS-specifics -> imperative
 
-www -> declerative
+WWW -> declarative
 everything keeps changing
+
 "the more you tighten your grip, the more the www slips through your fingers"
 
+## Reflection
+
+I found this a really interesting lecture. In hadn't heard of the terms declarative and imperative before but Jeremy did a great job at explaining them. The question "is declarative better then imperative" really stuck with me because I know I don't really prefer to much freedom but also don't always want to be restraint. I think these kind of things should be in a good balance. You probably always need both. Sometimes you need a more imperative mindset and sometimes a more declarative mindset. It all depends on the situation.
+
+socials:
+website: https://adactio.com/
+linkedin: https://www.linkedin.com/in/adactio/
+github: https://github.com/adactio
