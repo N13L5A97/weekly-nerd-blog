@@ -18,7 +18,7 @@ The rules for circuit bending are easy.
 
 You can find a short circuit by playing a wet finger on 2 connectors and look what happens. But WATCH OUT you can get shocked. This is why they only use battery based electronics.
 
-### Circuit Bending the Web
+## Circuit Bending the Web
 
 You could compare circuit bending with the inspector mode in your browser. You sometimes have all the elements in front of you and you have to play with them a bit to get what you want.
 
