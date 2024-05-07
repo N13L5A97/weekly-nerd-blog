@@ -21,3 +21,9 @@ Jeffrey showed us some experiments with a div element and told us the one he lik
 ## Reflection
 
 Jeffrey showed us a lot of his art projects that were really cool. The talk was a bit chaotic so it was hard to follow. There was not really a common thread in his story but after some reflecting I did find this talk really nice. Mostly the part where he found a way to combine his passion for art with his passion for front-end development. I would love to be able to combine all my hobbies into one major project. But also the way he made a toolbox for himself. I would love to do this once I have a little more experience.
+
+socials:
+
+website: https://www.jeffreyarts.nl/
+github: https://github.com/JeffreyArts
+insta: https://www.instagram.com/jeffrey.arts/?hl=en
