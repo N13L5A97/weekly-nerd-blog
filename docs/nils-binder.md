@@ -4,7 +4,7 @@
 
 Nils is from Germany and is Front-end designer at 9 Elements. He is also very passionate about origami and spends hours folding paper. Nils moves between two worlds — continuously striving to improve the communication between designers and developers.
 
-### 9 Elements
+## 9 Elements
 
 9 Elements is an agency based in Germany that helps clients building digital products and services, and bringing them to market. At 9 Elements they have a structure with 3 units:
 

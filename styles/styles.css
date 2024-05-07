@@ -113,6 +113,16 @@ p {
   max-width: 40em;
 }
 
+.p-list{
+  font-family: var(--paragraph-font);
+  font-size: var(--paragraph-size);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-light);
+
+  /* move dots inside*/
+  list-style-position: inside;
+}
+
 /* states */
 
 svg:hover {
