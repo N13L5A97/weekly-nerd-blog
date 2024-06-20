@@ -1,181 +1,67 @@
 # Robert Spier
 
-## Wie is robert?
+## Who is Robert?
 
-Works as creative technologist for the digital factory team at Deloitte NL. 
-Studied mediavormgeving, cmd at hva and information systems at uva. Worked at web developer at Booreiland, creative producer in the nightlife for 10+ years, worked at lecturer at hva.
+Robert works as creative technologist for the digital factory team at Deloitte NL. He studied Media Design, Cumminication and Multimedia Design (CMD) and Information Systems, worked as web developer at Booreiland, creative producer in the nightlife for 10+ years and as lecturer at the university of Applied Sciences in Amsterdam.
 
 ## Creative Technologist (Digital Superhero)
-ME
 
-- front-end development
-- onderzoek naar emergin technologies
-- kwalitatief onderzoek
-- manage stakeholders
-- creative solutions
-- automate everything
+As Creative Technologist Robert researches emerging technologies. He makes creative front-end solutions, does qualitative research, manages stakeholders and automates basically everything. He has a lot of meetings and he uses the time in between to do his own research.
 
-Heel veel teams. lege gaten in de agenda is voornamelijk dingen onderzoeken.
+At Deloitte he build the interface of their "chat gpt". He also deep faked the creator of Deloitte.
 
-### How
+## About You
 
-HTML, CSS, JS
-Vite and Svelte(kit)
-Angular, .NET/NodeJS and Azure
-magic stuff using several REst API's
+Some of us want to be creative developer, ethical hacker of philosopher. Robert says that CMD is the ideal start to become everything that has to do with humans. You can work at a design agency, start up, web shop, a corporate business of as freelancer. You can write code all day, talk with clients, do research or manage "stuff" or do something totally different. But the most important thing is you should do something you like.
 
-### Headstart
+## About Us
 
-Chatgpt binnen deloitte.
-Robert bouwt de interface hierban
+What should you do after CMD? Work at your internship?, go for a job hunt, find yourself somewhere, do another study, start a traineeship or maybe you'll see after you're done. Robert asked a couple alumni what they did after finishing at CMD and this where 4 stereotypical answers with what they use for tech stack and what they earn:
 
-### William
-
-deep fake de oprichter van Deloitte.
-
-## you
-
-Sommige willen creative developer worden, etisch hacker of fylosoof.
-CMD is de ideale springplank om alles te worden dat te maken heeft mensen.
-
-- design agency?
-- start up
-- freelance
-- webshop
-- corporate
-
-- write code all day?
-- talk with clients
-- do research
-- manage stuff
-- do something totally different
-
-Do something you like!
-
-## us
-
-- start at internship
-- go for job hunt
-- find yourself somewhere
-- study
-- traineeship
-- no clue/ we'll see
-
-What did other students do?
- 4 stereotipials
-
- Detachering:
+ Secondment:
  Angular + Tailwind
  3000.-
 
- Traineeship (finance)
+ Traineeship (finance):
  Vue+Bootstrap
  2900.-
 
- Freelance/Design Studio
+ Freelance/Design Studio:
  React/NExt + Sanity
  2100.- (80€ per uur)
 
- Full Service agency (smart TV apps)
+ Full Service agency (smart TV apps):
  SvelteKit+Vite
  2600.-
 
-### 5 points
+## The Money
 
-- Landschap (Sector)
-Inflation
-job roles
+Robert told us that there are a lot of things that have influence on our working environment, salary and benefits. It's our responsibility to stay up to date in order to respond to all those changes. But is salary everything you get? You can also have less money but a lot of benefits. What is worth more?
 
-"It's your responsibility to stay up to date in order to respond to these changes"
+### What is a good salary?
 
-- learn fundamentals
-- remain curious
-- stay informed
-- enjoy discovering
+When you're talking about salary you actually always talk about the salary without tax deduction for 40 hours per week. How much do you have left after the tax is deducted? Robert believes we should discuss with each other about our salary, be open, use the internet and calculate your monthly costs to find the salary that suits you.
 
-- The Type of Employer
+"Normalize talking about what you should earn."
 
-Freelancing
-traineeship
-detachering
-design studio
-full-service
-in-house services
+### What about benefits
 
-"all of these have their own advantages and downsides"
+Sometimes a job doesn't pay that much but they can lure you in with amazing benefits. With benefits you can think of travel reimbursement, team outings, lunch, vacation days, pension building a company car, profit sharing, stock options or a bonus.
 
-- The Stack
-
-"the favoriete programeertaal van de gene die daar is begonnen"
-You can learn everything once you know the basics.
-
-most populair:
-
-- nodeJS
-- React
-- jQuery
-- Express
-- Angular
-- Vue
-
-### The Money
-
-money v/s benefits
-
-- rijskosten
-- uitjes
-- vakantiedagen
-- lunch
-- pensioen
-- etc.
-
-#### bruto/netto
-
-Als je het hebt over salaris heb je het eigenlijk altijd over bruto voor 40 u/pw
-hoeveel hou je over als de belasting er vanaf gaat.
-van 3800 hou je 2900 over.
-
-#### What is a good salary?
-
-- Discuss with each other
-- Use the internet / apply to jobs
-- Calculate your monthly costs
-
-Normalize talking about what you should earn.
-
-" a normal salary is what you can do, combined with how your peers are being evaluated and how much...
-
-#### What about benefits
-
-- travel reimbursement
-- vacation money
-- pension building
-- development budget
-- bonus
-- profit sharing (winst wordt verdeeld)
-- stock options
-- flexible budget
-- a car?
-
-Balance
+The question is what is worth more? Money or the benefits? Robert says it is the balance between those two.
 
 ### The Vibe
 
-als werk niet leuk is is het het dan wel waard?
+Alongside the money and the benefits you can ask yourself, if you just enjoy working there is the money that important? And if you get paid a LOT but you don't like your work, is it still worth it?
 
-Immaterial recognition
-
-- Leave early on a friday
-- awesome collegues + mentoring
-- fun outings and drinks
-- close to home
+Next to the money and benefits you can also have immaterial recognition. This can include leaving early on fridays, amazing colleagues and mentoring, nice outings or that it may be close to your home.
 
 "benefits are not a substitute to a fair and honest salary combined with realistic expectations of a junior"
 
-## Conclusie
+## Conclusion
 
-- discuss your benefits with classmates
-- do your own research
-- it's okay to say no to a company
-
-- "It's your job, you will fo there every day. Have fun and feel recognized. Thay's the most important part"
+- Discuss your benefits with classmates
+- Do your own research
+- It's okay to say no to a company
+- "It's your job, you will go there every day. Have fun and feel recognized. That's the most important part"
+- Do something you like
