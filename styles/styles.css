@@ -12,12 +12,12 @@
   --section-color-yellow: #ebb62e;
   --section-color-purple: #762eeb;
 
-  --hue-rotate-blue: invert(19%) sepia(75%) saturate(7315%) hue-rotate(230deg)
-    brightness(93%) contrast(90%);
-  --hue-rotate-purple: invert(49%) sepia(70%) saturate(6607%) hue-rotate(247deg)
-    brightness(100%) contrast(87%);
-  --hue-rotate-yellow: invert(30%) sepia(100%) saturate(510%) hue-rotate(3deg)
-    brightness(107%) contrast(84%);
+  --hue-rotate-purple: invert(49%) sepia(70%) saturate(6607%) hue-rotate(247deg) brightness(100%) contrast(87%);
+  --hue-rotate-blue: invert(19%) sepia(75%) saturate(7315%) hue-rotate(230deg) brightness(93%) contrast(90%);
+  --hue-rotate-green: invert(20%) sepia(100%) saturate(750%) hue-rotate(104deg) brightness(104%) contrast(84%);
+  --hue-rotate-yellow: invert(30%) sepia(100%) saturate(510%) hue-rotate(3deg) brightness(107%) contrast(84%);
+  --hue-rotate-orange: invert(20%) sepia(100%) saturate(750%) hue-rotate(-10deg) brightness(104%) contrast(90%);
+  --hue-rotate-red: invert(20%) sepia(100%) saturate(1000%) hue-rotate(-30deg) brightness(104%) contrast(84%);
 
   --header-font: "Karantina", sans-serif;
   --paragraph-font: "Roboto", sans-serif;
@@ -164,7 +164,7 @@ a:focus-visible {
   padding-right: calc(50% - 15em);
 }
 
-.indexSlider li:not(.tag):hover {
+.indexSlider li:hover {
   transform: scale(1.2);
   z-index: 1;
   transition: transform 0.3s;
@@ -193,27 +193,33 @@ li .overlay {
   mix-blend-mode: screen;
 }
 
-.tag{
-  height: 70%;
-  transform: translate(-100%, -10%);
-
-  & p{
-    font-family: var(--header-font);
-        font-size: calc(var(--paragraph-size) * 2);
-  }
-}
-
-.purpleOverlay:hover {
+/* every 7th person gets purple overlay starting from the first */
+.indexSlide:nth-of-type(6n + 1):hover .overlay{
   filter: var(--hue-rotate-purple);
 }
 
-.blueOverlay:hover {
+/* every 7th person gets blue overlay starting from the second */
+.indexSlide:nth-of-type(6n + 2):hover .overlay{
   filter: var(--hue-rotate-blue);
 }
 
-.yellowOverlay:hover {
+/* every 7th person gets green overlay starting from the second */
+.indexSlide:nth-of-type(6n + 3):hover .overlay{
+  filter: var(--hue-rotate-green);
+}
+/* every 7th person gets yellow overlay starting from the second */
+.indexSlide:nth-of-type(6n + 4):hover .overlay{
   filter: var(--hue-rotate-yellow);
 }
+/* every 7th person gets orange overlay starting from the second */
+.indexSlide:nth-of-type(6n + 5):hover .overlay{
+  filter: var(--hue-rotate-orange);
+}
+/* every 7th person gets red overlay starting from the second */
+.indexSlide:nth-of-type(6n + 6):hover .overlay{
+  filter: var(--hue-rotate-red);
+}
+
 
 /* Blog page */
 
