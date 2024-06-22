@@ -164,7 +164,7 @@ a:focus-visible {
   padding-right: calc(50% - 15em);
 }
 
-.indexSlider li:hover {
+.indexSlider li:not(.tag):hover {
   transform: scale(1.2);
   z-index: 1;
   transition: transform 0.3s;
@@ -191,6 +191,16 @@ a:focus-visible {
 li .overlay {
   position: absolute;
   mix-blend-mode: screen;
+}
+
+.tag{
+  height: 70%;
+  transform: translate(-100%, -10%);
+
+  & p{
+    font-family: var(--header-font);
+        font-size: calc(var(--paragraph-size) * 2);
+  }
 }
 
 .purpleOverlay:hover {
