@@ -166,11 +166,6 @@ a:focus-visible {
   padding-right: calc(50% - 15em);
 }
 
-.indexSlider li:hover {
-  transform: scale(1.2);
-  z-index: 1;
-  transition: transform 0.3s;
-}
 
 .indexSlider a {
   position: absolute;
@@ -181,6 +176,13 @@ a:focus-visible {
 .indexSlider li {
   list-style: none;
   position: relative;
+  transition: transform 0.3s;
+  transform-origin: bottom center;
+}
+
+.indexSlider li:hover {
+  transform: scale(1.2);
+  z-index: 1;
   transition: transform 0.3s;
 }
 
